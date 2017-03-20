@@ -3,8 +3,9 @@ body {
 }
 
 #left-side, #center, #right-side {
-	width: 33%;
+	width: 31%;
 	float: left;
+	padding-left: 2%;
 }
 
 #left-side, #right-side {
@@ -21,12 +22,15 @@ body {
 }
 
 #bur {
-	width: 100%;
+	width: 90%;
 	height: 30px;
 	margin-bottom: 20px;
 	font-size: 15px;
 }
-#updateBtn {
+#updateBtn, #submitBtn {
 	font-size: 15px;
 
+}
+li {
+	font-size: 20px;
 }
