@@ -1,6 +1,6 @@
 var express = require("express");
 var bodyParser = require("body-parser");
-var methodOverride = require("method-override");
+// var methodOverride = require("method-override");
 
 var PORT = process.env.PORT || 3000;
 
@@ -14,6 +14,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+
+// app.use(methodOverride("_method"));
 
 // Static directory
 app.use(express.static("./public"));

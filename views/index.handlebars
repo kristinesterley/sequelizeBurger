@@ -5,10 +5,10 @@
       {{#unless this.devoured}}
         <li>
           {{this.burger_name}}
-          <form action="/?_method=PUT" method="POST">
+          <form id="updateForm" action="/update" method="POST">
             <input type="hidden" name="devoured" value="true">
             <input type="hidden" name="id" value={{this.id}}>
-            <button type="submit">Eat This One!</button>
+            <button id="updateBtn" type="submit">Eat This One!</button>
           </form>
         </li>
       {{/unless}}

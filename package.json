@@ -1,5 +1,5 @@
 {
-  "name": "burger",
+  "name": "sequelizeBurger",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kristinesterley/burger.git"
+    "url": "git+https://github.com/kristinesterley/sequelizeBurger.git"
   },
   "author": "kristin esterley",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kristinesterley/burger/issues"
+    "url": "https://github.com/kristinesterley/sequelizeBurger/issues"
   },
-  "homepage": "https://github.com/kristinesterley/burger#readme",
+  "homepage": "https://github.com/kristinesterley/sequelizeBurger#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",

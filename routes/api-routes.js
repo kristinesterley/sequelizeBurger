@@ -36,7 +36,9 @@ module.exports = function(app) {
 
   });
 
-  app.post("/", function(req, res){
+  //update the devoured flag for a specified burger
+
+  app.post("/update", function(req, res){
     db.Burger.update({
       devoured: req.body.devoured
     }, {
